@@ -4,6 +4,7 @@ export default {
   collectCoverageFrom: [
     'src/**/*.js',
     '!**/node_modules/**',
+    'src/js/errorRepository.js',
     '!src/__tests__/**',
   ],
   coverageThreshold: {
